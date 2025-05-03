@@ -42,8 +42,12 @@ docker run -d \
   roscore
 ```
 
-## Run the MobileHand Container
-
+## Run the MobileHand Container in a new terminal
+Ensure necessary permissions:
+```bash
+xhost +local:
+```
+Start the container
 ```bash
 docker run -it \
   --name mobilehand_container \
@@ -84,7 +88,7 @@ cd mobilehand/code
 python demo.py -m camera
 ```
 
-## Using the MuJoCo Simulator Container
+## Start the MuJoCo Simulator Container in another termial
 
 ```bash
 docker run -it \
