@@ -1,9 +1,9 @@
 # Individual_Project_Code
 
 The Project is split into 3 docker containers, stored as images on Dockerhub
--mobilehand_container:latest holds the modified MobileHand 3D hand pose estimator
--mujoco_container_nohost:latest contains the retargeting code and Shadow Robot hand simulated in Mujoco
--ros_core_container holds the ROS node facilitating communication between the two
+- mobilehand_container:latest holds the modified MobileHand 3D hand pose estimator
+- mujoco_container_nohost:latest contains the retargeting code and Shadow Robot hand simulated in Mujoco
+- ros_core_container holds the ROS node facilitating communication between the two
 
 ## Prerequisites
 - **Host OS:**
@@ -115,12 +115,11 @@ roslaunch sr_mano_retarget teleop_sim.launch
 
 This project was developed using [MobileHand][mobilehand], the [Mujoco] simulator, and the [Shadow Robot] hand:
 
-- [mobilehand]: https://github.com/gmntu/mobilehand
+...
 
-- [MuJoCo]: https://mujoco.org/
-
-- [Shadow Robot]: https://en.wikipedia.org/wiki/Shadow_Hand 
- 
+[mobilehand]: https://github.com/gmntu/mobilehand
+[MuJoCo]: https://mujoco.org/
+[Shadow Robot]: https://shadowrobot.com/ 
 
 
   
