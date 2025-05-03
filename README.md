@@ -115,7 +115,6 @@ roslaunch sr_mano_retarget teleop_sim.launch
 
 This project was developed using [MobileHand][mobilehand], the [Mujoco] simulator, and the [Shadow Robot] hand:
 
-...
 
 [mobilehand]: https://github.com/gmntu/mobilehand
 [MuJoCo]: https://mujoco.org/
